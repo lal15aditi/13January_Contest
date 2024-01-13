@@ -47,7 +47,7 @@ function App() {
         ans && (
           <>
             <div className={`${msg}`}>{msg}!</div>
-            <div className="answer">{ans}</div>
+            <div className="answer" style={{width: "13rem"}}>{ans}</div>
           </>
         )
       }
